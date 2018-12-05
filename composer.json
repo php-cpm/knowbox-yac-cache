@@ -1,0 +1,23 @@
+{
+  "name": "knowbox/yac-cache",
+  "description": "yii2 yacCache extends",
+  "type": "library",
+  "authors": [
+    {
+      "name": "zouyi",
+      "email": "zouyi@knowbox.cn"
+    }
+  ],
+  "autoload": {
+    "classmap":["src/"] 
+  },
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "^2.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.0.x-dev",
+    }
+  }
+}
